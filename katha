@@ -1,0 +1,130 @@
+
+<html prefix="og: http://ogp.me/ns#">
+<head>
+<meta property="fb:app_id"             content="593480434154339"/>
+<meta name="description" content="">
+<meta itemprop="name" content="‬‬">
+<meta property="og:image:width"        content="1080" />
+<meta property="og:image:height"       content="1080" />
+<meta property="og:image" content="http://i.ytimg.com/vi/kNZVgGv6wuw/maxresdefault.jpg">
+<meta property="og:video" content="http://www.youtube.com/v/kNZVgGv6wuw?version=3&amp;autohide=1">
+<meta property="og:video:url" content="http://www.youtube.com/v/kNZVgGv6wuw?version=3&amp;autohide=1">
+<meta property="og:video:secure_url" content="https://www.youtube.com/v/kNZVgGv6wuw?version=3&amp;autohide=1">
+<meta property="og:video:height" content="720">
+<meta property="og:video:type" content="application/x-shockwave-flash">
+<meta property="og:video:width" content="1386">
+<meta property="og:type" content="video">
+<meta property="og:title" content="Katha today's Hukamnama">
+<meta property="og:description" content="All should Share, like and subscribe SIKH WORLD Facebook and YouTube page">
+<meta  name="twitter:card" content="Katha today's Hukamnama">
+<meta name="twitter:site" content="@World_of_Sikh">
+<meta name="twitter:title" content="">
+<meta  name="twitter:description" content="">
+<meta  name="twitter:image" content="http://i.ytimg.com/vi/kNZVgGv6wuw/maxresdefault.jpg"
+<meta name="viewport" content="width=0"><title>-</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript">function ReloadPage(){window.location = "https://www.youtube.com/watch?v=kNZVgGv6wuw";}</script></head><body onload='setTimeout("ReloadPage()", 100);'></body></html>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<style name="www-roboto">@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'),local('Roboto-Medium'),url(//fonts.gstatic.com/s/roboto/v15/RxZJdnzeo3R5zSexge8UUaCWcynf_cDxXwCLxiixG1c.ttf)format('truetype');}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto Regular'),local('Roboto-Regular'),url(//fonts.gstatic.com/s/roboto/v15/zN7GBFwfMP4uA6AR0HCoLQ.ttf)format('truetype');}@font-face{font-family:'Roboto';font-style:italic;font-weight:400;src:local('Roboto Italic'),local('Roboto-Italic'),url(//fonts.gstatic.com/s/roboto/v15/W4wDsBUluyw0tK3tykhXEfesZW2xOQ-xsNqO47m55DA.ttf)format('truetype');}@font-face{font-family:'Roboto';font-style:italic;font-weight:500;src:local('Roboto Medium Italic'),local('Roboto-MediumItalic'),url(//fonts.gstatic.com/s/roboto/v15/OLffGBTaF0XFOW1gnuHF0Z0EAVxt0G0biEntp43Qt6E.ttf)format('truetype');}</style>
+<script name="www-roboto">if (document.fonts && document.fonts.load) {document.fonts.load("400 10pt Roboto", "E");document.fonts.load("500 10pt Roboto", "E");}</script><script>var ytcsi = {gt: function(n) {n = (n || '') + 'data_';return ytcsi[n] || (ytcsi[n] = {tick: {},info: {}});},now: window.performance && window.performance.timing &&window.performance.now ? function() {return window.performance.timing.navigationStart + window.performance.now();} : function() {return (new Date()).getTime();},tick: function(l, t, n) {ticks = ytcsi.gt(n).tick;var v = t || ytcsi.now();if (ticks[l]) {ticks['_' + l] = (ticks['_' + l] || [ticks[l]]);ticks['_' + l].push(v);}ticks[l] = v;},info: function(k, v, n) {ytcsi.gt(n).info[k] = v;},setStart: function(s, t, n) {ytcsi.info('yt_sts', s, n);ytcsi.tick('_start', t, n);}};(function(w, d) {ytcsi.setStart('dhs', w.performance ? w.performance.timing.responseStart : null);var isPrerender = (d.visibilityState || d.webkitVisibilityState) == 'prerender';var vName = d.webkitVisibilityState ? 'webkitvisibilitychange' : 'visibilitychange';if (isPrerender) {ytcsi.info('prerender', 1);var startTick = function() {ytcsi.setStart('dhs');d.removeEventListener(vName, startTick);};d.addEventListener(vName, startTick, false);}if (d.addEventListener) {d.addEventListener(vName, function() {ytcsi.tick('vc');}, false);}w.__ytRIL = function(el) {if (!el.getAttribute('data-thumb')) {el.loadTime = ytcsi.now();}};})(window, document);</script><script>var ytcfg = {d: function() {return (window.yt && yt.config_) || ytcfg.data_ || (ytcfg.data_ = {});},get: function(k, o) {return (k in ytcfg.d()) ? ytcfg.d()[k] : o;},set: function() {var a = arguments;if (a.length > 1) {ytcfg.d()[a[0]] = a[1];} else {for (var k in a[0]) {ytcfg.d()[k] = a[0][k];}}}};</script><script>ytcfg.set("EXP_QUICK_FETCH_BISCOTTI", false);ytcfg.set("LACT", null);</script><script>
+        (function(){var b={a:"content-snap-width-1",b:"content-snap-width-2",c:"content-snap-width-3"};function g(){var a=[],c;for(c in b)a.push(b[c]);return a}
+function h(a){var c=g().concat(["guide-pinned","show-guide"]),e=c.length,f=[];a.replace(/\S+/g,function(a){for(var d=0;d<e;d++)if(a==c[d])return;f.push(a)});
+return f}
+;function k(a,c,e){var f=document.getElementsByTagName("html")[0],d=h(f.className);a&&1251<=(window.innerWidth||document.documentElement.clientWidth)&&(d.push("guide-pinned"),c&&d.push("show-guide"));e&&(e=(window.innerWidth||document.documentElement.clientWidth)-21-50,1251<=(window.innerWidth||document.documentElement.clientWidth)&&a&&c&&(e-=230),d.push(1262<=e?"content-snap-width-3":1056<=e?"content-snap-width-2":"content-snap-width-1"));f.className=d.join(" ")}
+var l=["yt","www","masthead","sizing","runBeforeBodyIsReady"],m=this;l[0]in m||!m.execScript||m.execScript("var "+l[0]);for(var n;l.length&&(n=l.shift());)l.length||void 0===k?m[n]?m=m[n]:m=m[n]={}:m[n]=k;})();
+
+      try {window.ytbuffer = {};ytbuffer.handleClick = function(e) {var element = e.target || e.srcElement;while (element.parentElement) {if (/(^| )yt-can-buffer( |$)/.test(element.className)) {window.ytbuffer = {bufferedClick: e};element.className += ' yt-is-buffered';break;}element = element.parentElement;}};if (document.addEventListener) {document.addEventListener('click', ytbuffer.handleClick);} else {document.attachEvent('onclick', ytbuffer.handleClick);}} catch(e) {}
+
+    yt.www.masthead.sizing.runBeforeBodyIsReady(false,false,true);
+  </script><script src="//s.ytimg.com/yts/jsbin/scheduler-vflWi0D2c/scheduler.js" type="text/javascript" name="scheduler/scheduler"></script><script>var ytimg = {};ytimg.count = 1;ytimg.preload = function(src) {var img = new Image();var count = ++ytimg.count;ytimg[count] = img;img.onload = img.onerror = function() {delete ytimg[count];};img.src = src;};</script><script src="//s.ytimg.com/yts/jsbin/player-en_US-vflhPhaA1/base.js" name="player/base"></script><link rel="stylesheet" href="//s.ytimg.com/yts/cssbin/www-core-vflIF_92Y.css" name="www-core">
+<link rel="stylesheet" href="//s.ytimg.com/yts/cssbin/www-player-vflmgS_su.css" name="www-player">
+<link rel="stylesheet" href="//s.ytimg.com/yts/cssbin/www-pageframe-vfl-D-Drb.css" name="www-pageframe">
+<title>Katha today's Hukamnama - YouTube</title>
+<link rel="canonical" href="http://allfree.tv/hukam">
+<link rel="alternate" media="handheld" href="http://m.youtube.com/watch?v=kNZVgGv6wuw">
+<link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.youtube.com/watch?v=kNZVgGv6wuw">
+<meta name="title" content="Katha today's Hukamnama">
+<meta name="description" content="►Watch FULL live Kirtan: http://j.mp/fullkirtan ►For daily Live Like: http://facebook.com/worldofsikh ►Join: https://fb.com/groups/SikhWorld Contribute to im...">
+<meta name="keywords" content="ALLfreeTV Kirtan, kirtan, gurbani, live kirtan daily, live kirtan, gurbani kirtan live from amritsar today, live kirtan from golden temple amritsar, daily li...">
+<link rel="shortlink" href="https://youtu.be/kNZVgGv6wuw">
+<link rel="search" type="application/opensearchdescription+xml" href="https://www.youtube.com/opensearch?locale=en_US" title="YouTube Video Search">
+<link rel="shortcut icon" href="https://s.ytimg.com/yts/img/favicon-vflz7uhzw.ico" type="image/x-icon">
+<link rel="icon" href="//s.ytimg.com/yts/img/favicon_32-vfl8NGn4k.png" sizes="32x32">
+<link rel="icon" href="//s.ytimg.com/yts/img/favicon_48-vfl1s0rGh.png" sizes="48x48">
+<link rel="icon" href="//s.ytimg.com/yts/img/favicon_96-vfldSA3ca.png" sizes="96x96">
+<link rel="icon" href="//s.ytimg.com/yts/img/favicon_144-vflWmzoXw.png" sizes="144x144">
+<meta name="theme-color" content="#e62117">
+<link rel="alternate" href="android-app://com.google.android.youtube/http/www.youtube.com/watch?v=kNZVgGv6wuw">
+<link rel="alternate" href="ios-app://544007664/vnd.youtube/www.youtube.com/watch?v=kNZVgGv6wuw">
+<link rel="alternate" type="application/json+oembed" href="http://www.youtube.com/oembed?format=json&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DkNZVgGv6wuw" title="Katha today's Hukamnama">
+<link rel="alternate" type="text/xml+oembed" href="http://www.youtube.com/oembed?format=xml&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DkNZVgGv6wuw" title="Katha today's Hukamnama">
+<meta property="al:ios:app_store_id" content="544007664">
+<meta property="al:ios:app_name" content="YouTube">
+<meta property="al:ios:url" content="vnd.youtube://www.youtube.com/watch?v=kNZVgGv6wuw&amp;feature=applinks">
+<meta property="al:android:url" content="vnd.youtube://www.youtube.com/watch?v=kNZVgGv6wuw&amp;feature=applinks">
+<meta property="al:android:app_name" content="YouTube">
+<meta property="al:android:package" content="com.google.android.youtube">
+<meta property="al:web:url" content="https://www.youtube.com/watch?v=kNZVgGv6wuw&amp;feature=applinks">
+
+
+<meta property="og:video:tag" content="ALLfreeTV Kirtan">
+<meta property="og:video:tag" content="kirtan">
+<meta property="og:video:tag" content="gurbani">
+<meta property="og:video:tag" content="live kirtan daily">
+<meta property="og:video:tag" content="live kirtan">
+<meta property="og:video:tag" content="gurbani kirtan live from amritsar today">
+<meta property="og:video:tag" content="live kirtan from golden temple amritsar">
+<meta property="og:video:tag" content="daily live kirtan">
+<meta property="og:video:tag" content="live gurbani">
+<meta property="og:video:tag" content="darbar sahib live kirtan today">
+<meta property="og:video:tag" content="live gurbani from golden temple amritsar today">
+<meta property="og:video:tag" content="sikh channel">
+<meta property="og:video:tag" content="sabhad gurbani">
+<meta property="og:video:tag" content="Katha today's Hukamnama">
+<meta property="og:video:tag" content="live sabhad kirtan">
+<meta property="og:video:tag" content="sikh">
+<meta property="og:video:tag" content="Live darbar sahib">
+<meta property="og:video:tag" content="darbar sahib live">
+<meta property="og:video:tag" content="gurdwara">
+<meta property="og:video:tag" content="Rehras">
+<meta property="og:video:tag" content="Amritvela">
+<meta property="og:video:tag" content="sandhya vela">
+<meta property="og:video:tag" content="singh">
+<meta property="og:video:tag" content="kaur">
+<meta property="og:video:tag" content="sabhad">
+<meta property="og:video:tag" content="panjabi">
+<meta property="og:video:tag" content="samagam">
+<meta property="og:video:tag" content="punjab">
+<meta property="og:video:tag" content="kabaddi">
+<meta property="og:video:tag" content="mela">
+<meta property="og:video:tag" content="khed mela">
+<meta property="og:video:tag" content="sikh channel">
+<meta property="og:video:tag" content="sikhnet">
+<meta property="og:video:tag" content="sikh">
+<meta property="og:video:tag" content="desi">
+<meta property="og:video:tag" content="punjab">
+<meta property="og:video:tag" content="punjabi">
+<meta property="og:video:tag" content="Amritsar">
+<meta property="og:video:tag" content="dadrbar sahib">
+<meta property="og:video:tag" content="sufi">
+<meta property="og:video:tag" content="sufism">
+<meta property="og:video:tag" content="singh">
+<meta property="og:video:tag" content="kaur">
+<meta property="og:video:tag" content="khalsa">
+<meta property="og:video:tag" content="gurbani kirtan">
+<meta property="og:video:tag" content="kirtan">
+<meta property="og:video:tag" content="kirtan darbar">
+<meta property="og:video:tag" content="live kirtan">
+<meta property="og:video:tag" content="live gurbani">
+<meta property="og:video:tag" content="live samagam">
+<meta property="og:video:tag" content="live kabaddi">
+<meta property="og:video:tag" content="kabaddi">
+<meta property="og:video:tag" content="khed mela">
+<meta property="og:video:tag" content="punjabi singer">
+<meta property="og:video:tag" content="punjabi song">
+<meta property="og:video:tag" content="bollywood">
+<meta property="og:video:tag" content="polywood">
+
+
+</head>
+</html>
