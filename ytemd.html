@@ -11,7 +11,7 @@
 
     var done = false;
     var player;
-
+      
     function onYouTubePlayerAPIReady() {
         player = new YT.Player('howToVideo', {
             height: '390',
@@ -37,7 +37,7 @@
             done = true;
         }
     }
-
+    
     function stopVideo() {
         console.log('stopVideo');
         player.stopVideo();
