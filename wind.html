@@ -1,0 +1,381 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head><script type="text/javascript" src="/includes/js/modernizr.min.js"></script>
+<script type="text/javascript" src="/includes/js/membersite.min.js"></script>
+<!--[if lt IE 8]><script type="text/javascript">document.documentElement.className+=' ie7'</script><![endif]--><!--[if IE 8]><script type="text/javascript">document.documentElement.className+=' ie8'</script><![endif]--><script type="text/javascript">document.cookie='__rsdpr='+((window.devicePixelRatio===undefined)?1:window.devicePixelRatio)+';path=/';</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+    <title>
+        Freedom Mobile Refer A Friend
+    </title>
+    <meta name="viewport" content="width=device-width,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"/>
+    
+    <link rel="stylesheet" type="text/css" href="/css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/theme.rscss?file=/css/basics&file=/css/full_layout"/>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i)
+    {
+        w[l] = w[l] || [];
+        w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+        var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+                '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-K64T9G');</script>
+    <!-- End Google Tag Manager -->
+    <script src="//cdn.optimizely.com/js/2445620334.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script>window["$s"] = jQuery.noConflict();</script>
+<link rel="stylesheet" href="/js/fbox/jquery.fancybox.css?v=2.1.0" type="text/css" media="screen"/>
+<script type="text/javascript" src="/js/fbox/jquery.fancybox.pack.js?v=2.1.0"></script>
+<script type="text/javascript" src="/js/jquery.mask.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.3/clipboard.min.js"></script>
+
+<script src="/js/spark.v2.intern.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    window["Version"] = "19.0";
+    window["SparkPurl"] = "/";
+    $s(function(){Spark.init({
+        url: location.protocol + '//' + location.host,
+        token: RS.Api.access_token
+    })});
+    window['Spark']['emailValidationSettings'] = {
+        'api_key': "pubkey-bbadba6e4a1440961d4997e6a07c6f3c",
+        'invalid_message': "The email you've entered appears to be invalid. Please try again.",
+        'warning_message': "Did you mean <a class=\"{update_email}\" href=\"javascript:void(0);\">{did_you_mean}</a>?"
+    };
+</script>
+    <script>
+    $s(document).ready(function() {
+        $s('#foot-legal').html('&copy; 2016 <a href="https://www.freedommobile.ca/" target="_blank">Freedom Mobile Inc.</a>');
+    });
+</script>
+    <meta property="og:site_name" content="Freedom Mobile Refer A Friend"/>
+        <meta property="og:title" content="Get your $20 in Canada!"/>
+        <meta property="og:description" content="Get $20 credit till May 31! If you buy Wind / Freedom mobile from this link. Check out these latest phones with great value data, talk and text plans with no hidden fees. You'll love them!"/>
+        <meta property="og:image" content="https://refer.freedommobile.ca/cmc_upload/images/icon-facebook.jpg"/>
+        <meta property="og:url" content="https://refer.freedommobile.ca/u/5HSjTEi"/>
+        
+        <meta property="fb:app_id" content="401026496757865"/>
+</head>
+<body>
+<div id="wrap">
+    <div id="top-right">
+        <!--mp_trans_disable_start-->
+<span id="languages"></span>
+
+
+<script type="text/javascript">
+    $s(function ()
+    {
+        var lo = $s('#slio')[0];
+        var langNames = {
+            "en":"English",
+            "fr":"Français",
+            "es":"Español",
+            "de":"Deutsch"
+        };
+        var user = $s('#currentMemberName')[0];
+        var langs = "en".split(";");
+        for (var i = 0; i < langs.length; i++)
+        {
+            if (langs[i] != "en")
+            {
+                var a = $s("<a>" + langNames[langs[i]] + "</a>");
+                var prefix = location.search.replace(/lang=[^&]*/ig, '');
+                a.attr("href", ((prefix.indexOf('?') === -1 && prefix.length !== 0) ? "&" : "?") + "lang=" + langs[i]);
+                $s('#languages').prepend(a);
+                a.after(lo ? "&nbsp;| " : "");
+                lo = a;
+            }
+        }
+        $s('#languages').prepend(user && lo ? "&nbsp;| " : "");
+    });
+</script>
+<!--mp_trans_disable_end-->
+    </div>
+    <div id="header">
+        <span class="adapt-large" style="left:23%; top:22%; position:absolute; font-family: 'Montserrat', Arial, sans-serif;  color:#ffffff;">
+    <span style="font-size:31px;"><strong>Refer A Friend</strong></span><br/>
+    <span style="font-size:17px;">Send a friend to Freedom Mobile and you both get a $20 credit*</span>
+</span>
+
+<span class="adapt-medium" style="left:32%; top:22%; position:absolute; font-family: 'Montserrat', Arial, sans-serif;  color:#ffffff;">
+    <span style="font-size:31px;"><strong>Refer A Friend</strong></span><br/>
+    <span style="font-size:15px;">Send a friend to Freedom Mobile and you both get a $20 credit*</span>
+</span>
+
+<span class="adapt-small" style="left:39%; top:25%; width:200px; position:absolute; font-family: 'Montserrat', Arial, sans-serif;  color:#ffffff;">
+    <span style="font-size:21px;"><strong>Refer A Friend</strong></span><br/>
+    <span style="font-size:14px;">Send a friend to Freedom Mobile and you both get a $20 credit*</span>
+</span>
+
+<img src="/cmc_upload/images/header-public960.jpg" class="adapt-large" alt="Freedom Mobile Refer A Friend" style="-ms-interpolation-mode: bicubic;"/>
+<img src="/cmc_upload/images/header-public620.jpg" class="adapt-medium" alt="Freedom Mobile Refer A Friend" style="-ms-interpolation-mode: bicubic;"/>
+<img src="/cmc_upload/images/header-public360.jpg" class="adapt-small" alt="Freedom Mobile Refer A Friend" style="-ms-interpolation-mode: bicubic;"/>
+    </div>
+    <div id="main" class="spark-modal-placement">
+        <div class="padded clearfix content">
+    
+    <strong>Welcome! <!--mp_trans_disable_start-->Chamandeep Khehra<!--mp_trans_disable_end--></strong> thought you should check us out!
+</div>
+    <div class="row">
+        
+        <div class="cell_v2 large_v2">
+                    <div class="adapt-large">
+    <img alt="Freedom Mobile Refer A Friend" src="/cmc_upload/images/referee-landing.jpg" width="100%">
+    <span style="width:30%; position:absolute; top:40%; left: 16px; font-family: 'Montserrat', Arial, sans-serif; font-size:18px; line-height:24px; color:#ffffff">
+        Freedom Mobile is dedicated to providing our customers with great value data, talk and text plans with no hidden fees.
+    </span>
+</div>
+<div class="adapt-medium" style="height:360px">
+    <img width="100%" style="min-width:280px; padding-top:10px;" alt="Freedom Mobile Refer A Friend" src="/cmc_upload/images/referee-landing360.jpg">
+    <span style="width:210px; position:absolute; top:36%; left:16px; font-family: 'Montserrat', Arial, sans-serif; font-size:18px; line-height:24px; color:#ffffff">
+        Freedom Mobile is dedicated to providing our customers with great value data, talk and text plans with <br/>
+        no hidden fees.
+    </span>
+</div>
+<div class="adapt-small">
+    <img alt="Freedom Mobile Refer A Friend" src="/cmc_upload/images/referee-landing360.jpg" width="100%">
+    <span style="width:44%; min-width: 186px; position:absolute; top:48%; left:16px; font-family: 'Montserrat', Arial, sans-serif; font-size:18px; line-height:24px; color:#ffffff">
+        Freedom Mobile is dedicated to providing our customers with great value data, talk and text plans with no hidden fees.
+    </span>
+</div>
+                </div>
+                <div class="cell_v2 gap_v2"></div>
+                <div class="cell_v2 small_v2">
+                    <div class="content-columns">
+    <div class="column content" style="margin-top: 0%;">
+        <div class="padded clearfix">
+            <h1>
+	Claim Your Offer!</h1>
+<p>
+	Enter your full name and email address to claim your offer:</p>
+<br>
+            <script type="text/javascript">
+    $s(document).ready(function ()
+    {
+        if ($s('#full_name').val().length == 0)
+        {
+            $s('#full_name').focus();
+        }
+        else
+        {
+            $s('#express_consent').focus();
+            
+        }
+        $s('#ref-form-v2').one("submit", onSubmit);
+    });
+    function onSubmit()
+    {
+        var fullName = $s('#full_name').val();
+        var fn = $s('#first_name').val();
+        var ln = $s('#last_name').val();
+        var em = $s('#email').val();
+        var ta = $s('#terms_agree:checked').length > 0;
+        var ec = $s('#express_consent:checked').length > 0 || $s('#express_consent').length == 0;
+        $s('#full_name_err').html('');
+        $s('#email_err').html('');
+        $s('#consent_err').html('');
+        $s('#terms_err').html('');
+        if (fullName.length > 0 && em.length > 0 && ta && ec)
+        {
+            var ra = "",
+                    ri = "",
+                    v = "";
+
+            var isFB = location.pathname.indexOf('/canvas') == 0;
+            $s('.error').html('');
+            $s('#ref-form-v2 input').attr("disabled", true);
+            $s.fancybox.showLoading();
+            RS.Api.get('recordReferral', {rs_referrer: 300000010620, rs_a: ra, rs_r: ri, rs_v: v, FirstName: fn, LastName: ln, EmailAddress: em, LanguageCode: "en"}, function (r, e, root)
+            {
+                if (!e)
+                {
+                    
+                    if (isFB)
+                    {
+                        window.location = '/canvas/do_unlock_break.pg?rs_r=' + q('rs_r');
+                    }
+                    else
+                    {
+                        window.location = "/referee/use_offer.pg?ruid=" + root["Referrer"]["Id"] + "&uid=" + root["Referee"]["Id"];
+                    }
+                }
+                else
+                {
+                    $s.fancybox.hideLoading();
+                    $s('#ref-form-v2 input').attr("disabled", false);
+                    $s('#ref-form-v2').one("submit", onSubmit);
+                    switch (e["Code"])
+                    {
+                        case "error.business.Validation" :
+                        {
+                            // Parsing validation exceptions
+                            var lines = e["Message"].split('\n');
+                            for (var i = 0; i < lines.length; i++)
+                            {
+                                if (lines[i].indexOf("Error for attribute: Referee Email") != -1)
+                                {
+                                    $s('#email_err').html(lines[i + 1] ? lines[i + 1] : lines[i]);
+                                }
+                            }
+                            break;
+                        }
+                        default :
+                        {
+                            $s('.page-error').html(e["Message"]);
+                        }
+                    }
+                }
+            });
+        }
+        else
+        {
+            if (fullName.length == 0)
+            {
+                $s('#full_name_err').html('This information is required');
+            }
+            if (em.length == 0)
+            {
+                $s('#email_err').html('This information is required');
+            }
+            if (!ta)
+            {
+                $s('#terms_err').html("You must agree to the terms and conditions to proceed.");
+            }
+            if (!ec)
+            {
+                $s('#consent_err').html("You must agree to receive program emails.");
+            }
+            $s('#ref-form-v2').one("submit", onSubmit);
+        }
+    }
+</script>
+
+<form action="javascript:" id="ref-form-v2">
+    <div class="row">
+        <label for="full_name">Your full name</label>
+        
+        <input class="text" id="full_name" type="text" autocomplete="name" required
+               value="">
+        <input id="first_name" name="first_name" type="hidden"
+                />
+        <input id="last_name" name="last_name" type="hidden"
+                />
+
+        <div id="full_name_err" class="error"></div>
+        
+        <script>
+            Spark.splitFullName('first_name', 'last_name', 'full_name');
+        </script>
+    </div>
+    <div class="row">
+        <label for="email">Your email address</label>
+        <input type="email" id="email" name="email" class="text" onchange="Spark.validateEmail('#email', '#email-validator', '.updateEmail', '#email_err');"
+                />
+
+        <div class="error" id="email_err"></div>
+    </div>
+    
+    
+    <div class="row clearfix">
+        <div class="left">
+            <input id="express_consent" type="checkbox" value="Yes" />
+        </div>
+        <div class="left checkbox-label">
+            <div>
+                <label for="express_consent">
+                    I consent to receive Freedom Mobile emails to allow me to participate in the program. Freedom Mobile can be found at 207 Queen&rsquo;s Quay West, Suite 710, Toronto, ON, Canada, M6K 3K9 
+                            <a href="https://www.freedommobile.ca/" target="_blank">https://www.freedommobile.ca/</a>
+                        . I understand I can withdraw my consent by withdrawing from the program at any time.
+                </label>
+            </div>
+            <div id="consent_err" class="left error"></div>
+        </div>
+    </div>
+<div class="row clearfix">
+    <div class="left">
+        <input id="terms_agree" type="checkbox" value="Yes"/>
+    </div>
+    <div class="left checkbox-label">
+        <div>
+            <label for="terms_agree">
+                I have read and agree to the program <a target="_blank" href="/common/terms.pg">Terms &amp; Conditions</a>.
+            </label>
+        </div>
+        <div id="terms_err" class="left error"></div>
+    </div>
+</div>
+    <div class="row"> </div>
+    <div class="error page-error"></div>
+    <div class="row">
+        <input id="claimBtn" class="btn-large" style="width: 100%" type="submit" value="REDEEM OFFER NOW"/>
+    </div>
+</form>
+            
+            
+        </div>
+    </div>
+</div>
+                </div>
+    </div>
+    </div>
+    <div id="footer">
+        <div id="foot-links">
+            <a href="/common/rules.pg" target="_blank">Rules</a>&nbsp;|&nbsp;<a href="/common/terms.pg" target="_blank">Terms & Conditions</a>&nbsp;|&nbsp;<a href="/common/privacy.pg" target="_blank">Privacy</a>&nbsp;|&nbsp;<a href="/common/contact.pg" target="_blank">Contact Us</a>
+        </div>
+        <div id="foot-powered">
+            Powered by <a style="%0" target="_blank" href="http://www.rewardstream.com/">RewardStream</a>
+        </div>
+    </div>
+    <div class="foot-row foot-spacer"></div>
+    <div class="foot-row">
+        <div id="foot-legal">
+            &copy; 2017
+<a href="https://www.freedommobile.ca/" target="_blank">Freedom Mobile</a>
+        </div>
+
+        <div id="foot-follow">
+            <span>
+            Follow Freedom Mobile:
+        </span>&nbsp;&nbsp;
+        <a href="https://twitter.com/FreedomMobile" target="_blank"><img src="/images/icons/twitter-thumb.png" alt="Twitter"/></a>&nbsp;
+        <a href="https://www.facebook.com/frdmmobile" target="_blank"><img src="/images/icons/FB-thumb.png" alt="Facebook"/></a>
+        </div>
+    </div>
+    <div class="foot-row">
+    <div id="foot-referee">
+        207 Queen&rsquo;s Quay West, Suite 710, Toronto, ON, Canada, M6K 3K9&nbsp;|&nbsp;<a style="color:" target="_blank" href="https://www.freedommobile.ca/">https://www.freedommobile.ca/</a><br/>
+        This content was generated by Freedom Mobile on behalf of Chamandeep Khehra as the result of a referral made by Chamandeep Khehra from Freedom Mobile Refer A Friend.
+        <br/>
+        
+    </div>
+</div>
+    <div id="foot-disclaimer">
+        <strong>*Limited-time promotional offer valid until May 31, 2017. </strong>Referred customers who activate a phone with Freedom Mobile will receive a bonus $10 credit, in addition to the regular $10 credit for a total of $20 in credits for a successful referral. The person who referred them will also receive a bonus $10 credit, for a total of $20 in credits. Subject to terms &amp; conditions. Freedom Mobile reserves the right to modify, extend or cancel offer at any time.
+    </div>
+
+</div>
+<script type="text/javascript">
+            $s('.spark-referrer-testimonial').html("");
+            $s('.spark-referrer-firstname').html("Chamandeep");
+            
+            
+        </script>
+<!--[if lt IE 9]>
+<script src="/respond/respond.min.js"></script>
+<link href="/respond/proxy.html" id="respond-proxy" rel="respond-proxy" />
+<link href="/respond/proxy.gif?redirect=false" id="respond-redirect" rel="respond-redirect" />
+<script src="/respond/proxy.js?redirect=false"></script>
+<![endif]-->
+<script type="text/javascript" src="/includes/js/api.min.js"></script>
+<script type="text/javascript">RS.Api.init({api_key:'28030000000037',access_token:null,expires_in:null,popup_error_page:'/errors/popup.pg',ssl:true,lang:'en'});</script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam.nr-data.net","licenseKey":"7320785d78","agent":"","beacon":"bam.nr-data.net","applicationTime":27,"applicationID":"44211881","transactionName":"NFxRYBdRX0FSAkIKCg0WYFEXRl1XR05SBgMCTF9A","queueTime":0}</script></body>
+</html>
